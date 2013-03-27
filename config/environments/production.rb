@@ -15,6 +15,7 @@ config.action_mailer.default_url_options = { :host => 'localhost' }
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
+  #set to true from false and added second line.
   config.assets.compile = true
   config.assets.initialize_on_precompile = false
 
