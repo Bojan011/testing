@@ -1,6 +1,6 @@
 Testing::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
-config.action_mailer.default_url_options = { :host => 'http://floating-scrubland-9150.herokuapp.com/admin' }
+  config.action_mailer.default_url_options = { :host => 'http://floating-scrubland-9150.herokuapp.com/admin' }
   # Code is not reloaded between requests
   #was true
   config.cache_classes = false
