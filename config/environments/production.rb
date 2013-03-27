@@ -1,8 +1,9 @@
 Testing::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
-config.action_mailer.default_url_options = { :host => 'localhost' }
+config.action_mailer.default_url_options = { :host => 'http://floating-scrubland-9150.herokuapp.com/admin' }
   # Code is not reloaded between requests
-  config.cache_classes = true
+  #was true
+  config.cache_classes = false
 
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
@@ -12,7 +13,7 @@ config.action_mailer.default_url_options = { :host => 'localhost' }
   config.serve_static_assets = false
 
   # Compress JavaScripts and CSS
-  config.assets.compress = true
+  config.assets.compress = false
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   #set to true from false and added second line.
